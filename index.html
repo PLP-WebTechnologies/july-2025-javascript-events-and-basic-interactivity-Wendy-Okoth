@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Pages</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1><centre><u>Interactive Web Page with JavaScript</u></centre></h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="countBtn">Click Me</button>
+    <button id="resetBtn">Reset</button>
+    <p id="countDisplay">Clicked 0 times</p>
+
+    <input type="text" id="nameInput" placeholder="Type your name">
+    <p id="typedName"></p>
+  </section>
+
+  <!-- Part 2: Interactive Features -->
+  <section>
+    <h2>Part 2: Interactive Features</h2>
+
+    <!-- Show/Hide Paragraph -->
+     <button id="toggleBtn">Show/Hide Text</button>
+     <p id="hiddenText" style="display:none; background: #f0f0f0; padding:10px; border-radius:5px;">
+         🎉 A Surprise from Wendy! This text can be shown or hidden whenever you press the button.
+     </p>
+
+
+    <!-- FAQ -->
+    <div class="faq">
+      <h3 class="faq-question">What is JavaScript? ⬇</h3>
+      <p class="faq-answer" style="display:none;">JavaScript is a programming language that makes web pages interactive.</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Part 3: Form Validation</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="nameField"></label>
+      <small class="error" id="nameError"></small><br>
+
+      <label>Email: <input type="email" id="emailField"></label>
+      <small class="error" id="emailError"></small><br>
+
+      <label>Password: <input type="password" id="passwordField"></label>
+      <small class="error" id="passwordError"></small><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formSuccess"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Wendy's Interactive Page which I Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
