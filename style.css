@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+footer nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
