@@ -1,0 +1,43 @@
+Interactive Web Page with JavaScript
+
+This project is a simple interactive webpage built using HTML, CSS, and JavaScript.
+It demonstrates event handling, interactive features, and custom form validation.
+
+Project Structure
+index.html → The main webpage with structured sections (Event Handling, Interactive Features, Form Validation, Footer).
+style.css → Styles for buttons, text, footer, and other UI elements.
+script.js → JavaScript code for event handling, interactive features, and form validation.
+
+Features
+
+Event Handling
+A Click Counter Button ("Click Me") that counts how many times it has been pressed.
+A Reset Button that resets the counter to zero.
+A Name Input Field that displays a personalized greeting as you type.
+
+Interactive Features
+Show/Hide Text Button → Toggles visibility of a hidden paragraph.
+FAQ Section → Click the question to expand or collapse the answer.
+
+Form Validation
+A Sign-Up Form with the following validations:
+Name field cannot be empty.
+Email must follow a valid email format.
+Password must be at least 6 characters long.
+
+If valid, displays a success message: "The Form has been submitted successfully!"
+
+Footer
+
+A simple footer with copyright:
+© 2025 Wendy's Interactive Page which I Built with HTML, CSS & JavaScript
+
+How to Run
+Download or copy all three files: index.html, style.css, and script.js.
+Open index.html in any modern web browser (Chrome, Edge, Firefox, etc).
+Interact with buttons, the form, and the FAQ to test the features.
+
+
+
+Author
+Developed by Wendy as part of practicing HTML, CSS, and JavaScript basics
